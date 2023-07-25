@@ -19,7 +19,7 @@
    - Kompleksitas ruang: O(n)
      - Alasan: Kodingan ini menggunakan stack untuk menyimpan karakter bukaan bracket dari input. Dalam kasus terburuk, ketika semua karakter dalam input adalah bukaan bracket, stack akan menyimpan seluruh "n" karakter dalam input. Sehingga kompleksitas ruangnya adalah O(n).
 
-   - Penjelasan Singkat:
+   - Penjelasan:
      Kodingan "Check Balanced Brackets" menggunakan pendekatan stack untuk memeriksa keseimbangan tumpukan bracket dalam input. Iterasi dilakukan sebanyak karakter dalam input (n), dengan setiap operasi dalam loop berjalan dalam waktu konstan O(1). Penggunaan stack menyebabkan kompleksitas ruang menjadi O(n), karena dalam kasus terburuk, stack akan menyimpan seluruh "n" karakter dari input. Jadi, secara keseluruhan, kodingan ini memiliki kompleksitas waktu O(n) dan kompleksitas ruang O(n).
 
    - Contoh:
